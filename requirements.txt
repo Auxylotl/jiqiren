@@ -1,0 +1,3 @@
+#pip install -r requirements.txt
+discord==1.0.1
+discord.py==1.4.1
