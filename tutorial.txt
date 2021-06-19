@@ -11,7 +11,18 @@ You need to input your Discord token to use this. If you don't know how, search 
 
 Run the jiqiren.py file
 
-You may edit the prefix (default is "lol " and change token in the config.json.
+You may edit the prefix (default is "lol ") and change token in the config.json.
+
+IF YOU ENCOUNTER ANY ERRORS:
+
+Json.encode error - delete the config.json file and re run the thing
+Module error - make sure to pip install from requirements.txt!
+xxxx isn't a recognizable batch/file/exc - make sure you have added python to your path! Google how to do so
+You can't paste a token into a python shell so try to run the program by vscode OR your terminal
+Open .json files with Notepad....
+
+I don't accept friend requests from randoms on Discord so the best way to reach me is to
+join my Discord server: discord.gg/sped if you need help.
 
 Love,
     Auxylotl#1001
