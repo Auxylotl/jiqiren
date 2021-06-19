@@ -15,7 +15,7 @@ You may edit the prefix (default is "lol ") and change token in the config.json.
 
 IF YOU ENCOUNTER ANY ERRORS:
 
-Json.encode error - delete the config.json file and re run the thing
+Json.decode error - delete the config.json file and re run the thing
 Module error - make sure to pip install from requirements.txt!
 xxxx isn't a recognizable batch/file/exc - make sure you have added python to your path! Google how to do so
 You can't paste a token into a python shell so try to run the program by vscode OR your terminal
