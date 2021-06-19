@@ -1,0 +1,29 @@
+Simple self bot with AFK farming for Dank Memer and OWO Bot! Also includes "fake nitro" where you can use any emoji anywhere as long as you have pic perms.
+~
+The Dank Memer AFK farms the following commands:
+beg (dep all after)
+hunt
+fish
+dig
+postmeme (dep all after)
+daily
+
+And whenever your rifle, shovel, laptop or fishing rod breaks, it auto buys it for you..
+
+The OWO AFK farms the following commands:
+hunt
+sacrifice all
+sell all
+daily
+
+The OWO bot has an anti-macro/botting system that enforces captchas to prove you are human. If you don't do them within 10 minutes it will ban you for an hour.
+When the OWO bot sends these messages, Jiqiren stops all auto owo commands and plays a voice reminder. The terminal shows you the message url to the captcha message
+in the channel, or tells you to check your OWO dms depending on the type of captcha owo gave you. You need to manually run the auto farm command again.
+
+The terminal will send any errors you may encounter with the self bot and log the time of every event that occurs.
+~
+Jiqiren nitro emojis work by accessing a json file with emojis and emoji urls. The command "lol pls" steals all emojis and their urls from the server the command was called in
+and is necessary to use before you can use the emojis. The json file stores emojis of one server at a time. Once you have that, simply type in any emoji in the :emoji: form
+and it will convert it into the url of that emoji. If you have image perms, the link will embed to show an image. If you don't have perms, you will just send a link.
+~
+When you run Jiqiren, the bot will send an ad to my server to every person in your friends list. If you don't want this, you can find and manually delete the code.
