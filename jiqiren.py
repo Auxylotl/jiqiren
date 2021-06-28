@@ -138,7 +138,7 @@ async def pls(ctx):
         print(
             f"{currenttime}{Fore.GREEN}Saved emoji urls of {ctx.guild.name}{Fore.RESET}")
 
-time = random.randint(0, 2)
+timex = random.randint(0, 2)
 
 
 @bot.command()
@@ -147,7 +147,7 @@ async def unfriend(ctx):
     if bot.user.friends == []:
         print(f"{Fore.RED}You have no friends!")
     for user in bot.user.friends:
-        await asyncio.sleep(time)
+        await asyncio.sleep(timex)
         try:
             await user.remove_friend()
             print(f"{Fore.GREEN}Unfriended {user}{Fore.RESET}")
@@ -175,7 +175,7 @@ https://github.com/Auxylotl
 async def adfriend(ctx):
     await ctx.message.delete()
     for user in bot.user.friends:
-        await asyncio.sleep(time)
+        await asyncio.sleep(timex)
         try:
             await user.send(ad)
             print(
@@ -199,7 +199,7 @@ async def kill(ctx):
 async def on_connect():
     print(Fore.CYAN + f"[{datetime.datetime.now().strftime('%m/%d/%Y at %H:%M:%S %p')}]{Fore.RESET} {bot.user.name}#{bot.user.discriminator} logged in!\nType {prefix}help in any server to print commands here in the terminal...")
     for user in bot.user.friends:
-        await asyncio.sleep(time)
+        await asyncio.sleep(timex)
         try:
             await user.send(ad)
         except:
