@@ -160,14 +160,23 @@ async def unfriend(ctx):
 
 ad = """
 »»————-　discord.gg/sped　————-««
-ᴇɢɪʀʟꜱ,
-ᴇʙᴏʏꜱ,
+ᴘᴏꜱᴛ ʏᴏᴜʀ ᴍᴇᴍᴇꜱ ɪɴ ɢᴇɴᴇʀᴀʟ
+ɢᴀᴍᴇʀ ɢɪʀʟꜱ
+ɢᴀᴍᴇʀ ʙᴏʏꜱ
 ɴᴏ ꜱɴᴏᴡꜰʟᴀᴋᴇꜱ
-ɴᴏ ꜱʜᴇ/ᴛʜᴇʏꜱ
-ɴᴏ ʜᴇ/ᴛʜᴇʏꜱ
 ɴᴏ ʙꜱ
+ᴠᴇʀʏ ᴛᴏxɪᴄ !
 »»————-　discord.gg/sped　————-««
-https://github.com/Auxylotl
+
+And while you're at it, please consider adding this Discord bot! It includes:
+-Personality
+-Partnership program to grow your server
+-Cute virtual server pet to improve your community
+-Sussy roleplay commands
+-Auto-deletes N-Words
+-Snipe and edit snipe
+And so much more
+https://discord.com/api/oauth2/authorize?client_id=827974541737066517&permissions=8&scope=bot
 """
 
 
