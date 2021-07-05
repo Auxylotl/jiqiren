@@ -31,6 +31,8 @@ class Dank(commands.Cog):
     global vautodaily
     global currenttime
     global config
+    timex = random.uniform(40.1, 44.9)
+    timex2 = random.uniform(2.4, 4.8)
 
     @commands.command()
     async def autobeg(self, ctx):
@@ -44,9 +46,9 @@ class Dank(commands.Cog):
         while vautobeg == True:
             try:
                 await ctx.send("pls beg")
-                await asyncio.sleep(3)
+                await asyncio.sleep(timex2)
                 await ctx.send("pls dep all")
-                await asyncio.sleep(42)
+                await asyncio.sleep(timex)
             except:
                 print(
                     "Failed autobeg. Channel may have been deleted or you don't have the perms to send...")
@@ -63,7 +65,7 @@ class Dank(commands.Cog):
         while vautohunt == True:
             try:
                 await ctx.send("pls hunt")
-                await asyncio.sleep(42)
+                await asyncio.sleep(timex)
             except:
                 print(
                     "Failed autohunt. Channel may have been deleted or you don't have the perms to send...")
@@ -94,7 +96,7 @@ class Dank(commands.Cog):
         while vautofish == True:
             try:
                 await ctx.send("pls fish")
-                await asyncio.sleep(41)
+                await asyncio.sleep(timex)
             except:
                 print(
                     "Failed autofish. Channel may have been deleted or you don't have the perms to send...")
@@ -128,9 +130,9 @@ class Dank(commands.Cog):
                 await ctx.send("pls postmeme")
                 await asyncio.sleep(0.5)
                 await ctx.send(f"{random.choice(frick)}")
-                await asyncio.sleep(1)
+                await asyncio.sleep(timex2)
                 await ctx.send("pls dep all")
-                await asyncio.sleep(40)
+                await asyncio.sleep(timex)
             except:
                 print(
                     "Failed automeme. Channel may have been deleted or you don't have the perms to send...")
@@ -161,7 +163,7 @@ class Dank(commands.Cog):
         while vautodig == True:
             try:
                 await ctx.send("pls dig")
-                await asyncio.sleep(40)
+                await asyncio.sleep(timex)
             except:
                 print(
                     "Failed autodig. Channel may have been deleted or you don't have the perms to send...")
@@ -192,7 +194,7 @@ class Dank(commands.Cog):
         while vautodaily == True:
             try:
                 await ctx.send("pls daily")
-                await asyncio.sleep(2)
+                await asyncio.sleep(timex2)
                 await ctx.send("pls dep all")
                 await asyncio.sleep(86400)
             except:
