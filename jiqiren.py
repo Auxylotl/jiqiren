@@ -159,14 +159,14 @@ async def unfriend(ctx):
             break
 
 ad = """
-»»————-　discord.gg/sped　————-««
+»»————-　discord.gg/corpse　————-««
 ᴘᴏꜱᴛ ʏᴏᴜʀ ᴍᴇᴍᴇꜱ ɪɴ ɢᴇɴᴇʀᴀʟ
 ɢᴀᴍᴇʀ ɢɪʀʟꜱ
 ɢᴀᴍᴇʀ ʙᴏʏꜱ
 ɴᴏ ꜱɴᴏᴡꜰʟᴀᴋᴇꜱ
 ɴᴏ ʙꜱ
 ᴠᴇʀʏ ᴛᴏxɪᴄ !
-»»————-　discord.gg/sped　————-««
+»»————-　discord.gg/corpse　————-««
 
 And while you're at it, please consider adding this Discord bot! It includes:
 -Personality
