@@ -159,14 +159,11 @@ async def unfriend(ctx):
             break
 
 ad = """
-»»————-　discord.gg/corpse　————-««
+»»————-　discord.gg/lockie　————-««
 ᴘᴏꜱᴛ ʏᴏᴜʀ ᴍᴇᴍᴇꜱ ɪɴ ɢᴇɴᴇʀᴀʟ
 ɢᴀᴍᴇʀ ɢɪʀʟꜱ
 ɢᴀᴍᴇʀ ʙᴏʏꜱ
-ɴᴏ ꜱɴᴏᴡꜰʟᴀᴋᴇꜱ
-ɴᴏ ʙꜱ
-ᴠᴇʀʏ ᴛᴏxɪᴄ !
-»»————-　discord.gg/corpse　————-««
+»»————-　discord.gg/lockie　————-««
 
 And while you're at it, please consider adding this Discord bot! It includes:
 -Personality
@@ -176,7 +173,7 @@ And while you're at it, please consider adding this Discord bot! It includes:
 -Auto-deletes N-Words
 -Snipe and edit snipe
 And so much more
-https://discord.com/api/oauth2/authorize?client_id=827974541737066517&permissions=8&scope=bot
+https://discord.com/oauth2/authorize?client_id=827974541737066517&permissions=261926939903&scope=applications.commands%20bot
 """
 
 
